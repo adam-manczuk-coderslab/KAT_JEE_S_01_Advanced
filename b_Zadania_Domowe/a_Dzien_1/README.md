@@ -4,8 +4,7 @@ którzy nie są spokrewnieni z szefem o nazwisku **Kowalski**.
 
 1. W pliku `Main1.java` napisz program, który wczyta dane z pliku `earnings.txt`.
 
-następnie wyświetli listę 3 pracowników z największymi zarobkami, 
-których nazwisko nie jest takie samo jak szefa (Kowalski).
+2. Wyświetli listę 3 pracowników z największymi zarobkami, których nazwisko nie jest takie samo jak szefa (Kowalski).
  
     * Zwróć uwagę że nazwisko to może się odmieniać (Kowalski, Kowalska).
     * Zwróć uwagę na ułożenie danych w pliku, występują linie które nie zawierają płac.
