@@ -35,27 +35,28 @@ https://mvnrepository.com/popular
 1. Za pomocą pliku pom.xml skonfiguruj plugin `maven-assembly-plugin<`, plugin ten służy do tworzenia różnego rodzaju archiwów zawierających nasz projekt, np. zip, jar.
 2. Wykorzystamy go do utworzenia wykonywalnego archiwum jar z naszego projektu. Plik ten będzie zawierał w sobie wszystkie wymagane do uruchomienia zależności.
 3. Uzupełnij plik pom o definicję pluginu:
-```xml
-<build>
-    <plugins>
-        <plugin>
-            <artifactId>maven-assembly-plugin</artifactId>
-            <version>3.0.0</version>
-            <configuration>
-                <archive>
-                    <manifest>
-                        <mainClass>pl.coderslab.Example</mainClass>
-                    </manifest>
-                </archive>
-                <descriptorRefs>
-                    <descriptorRef>jar-with-dependencies</descriptorRef>
-                </descriptorRefs>
-            </configuration>
-        </plugin>
-    </plugins>
-</build>
-```
-Nazwę **pl.coderslab.Example** - zamień na własną klasę z metodą main.
+    ```xml
+    <build>
+        <plugins>
+            <plugin>
+                <artifactId>maven-assembly-plugin</artifactId>
+                <version>3.0.0</version>
+                <configuration>
+                    <archive>
+                        <manifest>
+                            <mainClass>pl.coderslab.Example</mainClass>
+                        </manifest>
+                    </archive>
+                    <descriptorRefs>
+                        <descriptorRef>jar-with-dependencies</descriptorRef>
+                    </descriptorRefs>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+    ```
+    Nazwę **pl.coderslab.Example** - zamień na własną klasę z metodą main.
+
 4. Z konsoli lub eclipse wykonaj następującą komendę:
 mvn clean compile assembly:single
 5. Po poprawnym wykonaniu w folderze target otrzymamy plik jar

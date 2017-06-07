@@ -7,20 +7,20 @@ którzy nie są spokrewnieni z szefem o nazwisku **Kowalski**.
 następnie wyświetli listę 3 pracowników z największymi zarobkami, 
 których nazwisko nie jest takie samo jak szefa (Kowalski).
  
-* Zwróć uwagę że nazwisko to może się odmieniać (Kowalski, Kowalska).
-* Zwróć uwagę na ułożenie danych w pliku, występują linie które nie zawierają płac.
-* Zwróć uwagę że ułożenie danych w pliku może się zmieniać. 
-* Zwróć uwagę że kolejność danych w lini może być przestawiona.
+    * Zwróć uwagę że nazwisko to może się odmieniać (Kowalski, Kowalska).
+    * Zwróć uwagę na ułożenie danych w pliku, występują linie które nie zawierają płac.
+    * Zwróć uwagę że ułożenie danych w pliku może się zmieniać. 
+    * Zwróć uwagę że kolejność danych w lini może być przestawiona.
 
 
 #### Zadanie 2.
 
 1. W pliku `Main2.java` do zmiennych **reg1**, **reg2** wpisz kolejno wyrażenia regularne, opisujące:
 
-   * liczby zmiennoprzecinkowe (5.65 , 123.123)
-   * liczby w notacji naukowej ( 5.4325e+04 ; 2.0000342E-06)
-   * datę w formacie `dd/mm/yyyy`
-   * datę w formacie `yyyy-mm-dd` - gdzie rok jest powyżej 2000
+    * liczby zmiennoprzecinkowe (5.65 , 123.123)
+    * liczby w notacji naukowej ( 5.4325e+04 ; 2.0000342E-06)
+    * datę w formacie `dd/mm/yyyy`
+    * datę w formacie `yyyy-mm-dd` - gdzie rok jest powyżej 2000
    
    
 #### Zadanie 3
@@ -29,9 +29,9 @@ W pliku `Main3.java`
 
 1. Napisz metodę `static boolean verifyLogin(String email)`,
 która zwróci **true** jeżeli ciąg znaków:
-  * Ma minimum 5 znaków.
-  * Zawiera tylko litery, cyfry, znak podkreślenia, myślnik
-  * Nie zaczyna się od cyfry 
+    * Ma minimum 5 znaków.
+    * Zawiera tylko litery, cyfry, znak podkreślenia, myślnik
+    * Nie zaczyna się od cyfry 
   
 **false** w przeciwnym wypadku. 
 

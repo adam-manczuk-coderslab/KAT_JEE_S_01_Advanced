@@ -43,7 +43,8 @@ Takiej możliwości może nie być w przypadku korzystania z API od zewnętrzneg
 
 
 
-** Zadania dodatkowe - są to przykładowe zadania z egzaminu OCJP - dawniej SCJP **
+**Zadania dodatkowe - są to przykładowe zadania z egzaminu OCJP - dawniej SCJP**
+
 Spróbuj odpowiedzieć na zadane pytania - następnie uruchom kod i przeanalizuj swoją odpowiedź.
 
 #### Zadanie 1
