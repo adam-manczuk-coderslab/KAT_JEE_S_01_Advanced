@@ -76,5 +76,5 @@ mvn clean compile assembly:single
 5. Po poprawnym wykonaniu w folderze target otrzymamy plik jar
 6. Uruchom program wykonując polecenie java -jar <nazwa pliku z rozszerzeniem jar>
 
-Więcej informacji znajdziesz pod adresem: 
-    * https://maven.apache.org/plugins/maven-assembly-plugin/usage.html
+Więcej informacji znajdziesz:
+    * https://github.com/google/guava/wiki
