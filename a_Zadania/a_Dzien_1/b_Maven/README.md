@@ -76,5 +76,6 @@ mvn clean compile assembly:single
 5. Po poprawnym wykonaniu w folderze target otrzymamy plik jar
 6. Uruchom program wykonując polecenie java -jar <nazwa pliku z rozszerzeniem jar>
 
-Więcej informacji znajdziesz:
-    * https://github.com/google/guava/wiki
+Więcej informacji znajdziesz :
+
+https://github.com/google/guava/wiki
