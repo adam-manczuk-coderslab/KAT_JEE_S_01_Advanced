@@ -79,3 +79,6 @@ mvn clean compile assembly:single
 Więcej informacji znajdziesz :
 
 https://github.com/google/guava/wiki
+
+
+**Repozytorium z ćwiczeniami zostanie usunięte 2 tygodnie po zakończeniu kursu. Spowoduje to też usunięcie wszystkich forków, które są zrobione z tego repozytorium.**

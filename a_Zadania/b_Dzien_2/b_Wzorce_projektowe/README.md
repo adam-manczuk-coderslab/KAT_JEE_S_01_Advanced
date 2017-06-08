@@ -31,3 +31,7 @@ Pamiętaj aby rozwiązania do zadań umieszczać w odpowiednich plikach `java`, 
   * SubscriberObserver - klasy imitującej powiadomienie subskrybentów o pojawieniu się nowego postu.
   * PublishSubscriber - klasy imitującej dodanie postu na powiązanych z naszym systemem blogach.
 2. Utwórz implementację wzorca Obserwator.
+
+
+
+**Repozytorium z ćwiczeniami zostanie usunięte 2 tygodnie po zakończeniu kursu. Spowoduje to też usunięcie wszystkich forków, które są zrobione z tego repozytorium.**

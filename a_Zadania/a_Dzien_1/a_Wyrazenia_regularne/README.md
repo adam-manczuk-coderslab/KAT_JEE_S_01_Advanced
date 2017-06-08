@@ -51,3 +51,6 @@ W pliku `Main3.java`
  
 W pliku `Main4.java` w metodzie `main` zostały przygotowane wyrażenia regularne, 
 uruchom program i przeanalizuj działanie.
+
+
+**Repozytorium z ćwiczeniami zostanie usunięte 2 tygodnie po zakończeniu kursu. Spowoduje to też usunięcie wszystkich forków, które są zrobione z tego repozytorium.**
