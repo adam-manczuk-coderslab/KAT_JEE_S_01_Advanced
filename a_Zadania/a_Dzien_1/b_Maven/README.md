@@ -1,5 +1,5 @@
 #  Java Zaawansowana - Maven
-Pamiętaj aby rozwiązania do zadań umieszczać w odpowiednich plikach `java`, przygotowanych do zadań.  
+Pamiętaj aby rozwiązania do zadań umieszczać w odpowiednich plikach `java`, przygotowanych do zadań.
 
 
 #### Zadanie 1 - rozwiązywane z wykładowcą.
@@ -14,19 +14,19 @@ Pamiętaj aby rozwiązania do zadań umieszczać w odpowiednich plikach `java`, 
 
 1. Za pomocą pliku pom.xml dołącz do projektu bibliotekę `jsoup` - poznaną podczas pierwszych warsztatów.
 2. Przetestuj działanie korzystając z poniższego kodu:
-````java
-Connection connect = Jsoup.connect("http://www.onet.pl/");
-try {
-    Document document = connect.get();
-    Elements links = document.select("span.title");
-    for (Element elem : links) {
-        System.out.println(elem.text());
+    ````java
+    Connection connect = Jsoup.connect("http://www.onet.pl/");
+    try {
+        Document document = connect.get();
+        Elements links = document.select("span.title");
+        for (Element elem : links) {
+            System.out.println(elem.text());
+        }
+    } catch (IOException e) {
+        e.printStackTrace();
     }
-} catch (IOException e) {
-    e.printStackTrace();
-}
 
-````
+    ````
 
 #### Zadanie 3
 
@@ -36,7 +36,7 @@ Więcej informacji znajdziesz:
     * https://github.com/google/guava/wiki
     * http://zetcode.com/articles/guava/
     * https://www.tutorialspoint.com/guava/index.htm
-    
+
 
 #### Zadanie 4
 

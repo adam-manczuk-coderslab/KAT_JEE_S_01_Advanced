@@ -1,5 +1,5 @@
 #  Java Zaawansowane - Wyrażenia regularne
-Pamiętaj aby rozwiązania do zadań umieszczać w odpowiednich plikach `java`, przygotowanych do zadań.  
+Pamiętaj aby rozwiązania do zadań umieszczać w odpowiednich plikach `java`, przygotowanych do zadań.
 
 
 #### Zadanie 1 - rozwiązywane z wykładowcą.
@@ -16,13 +16,12 @@ W pliku `Main1.java`
 
 W pliku `Main2.java`
 
-1. Napisz metodę `static boolean verifyPassword(int multipler, int index)`,
-która zwróci **true** jeżeli ciąg znaków:
-  * Ma od 10 do 15 znaków.
-  * Ma minimum jedną małą literę.
-  * Ma minimum jedną wielką literę.
-  * Nie zawiera dwóch wielkich lub dwóch małych liter z rzędu.
-  
+1. Napisz metodę `static boolean verifyPassword(int multipler, int index)`, która zwróci **true** jeżeli ciąg znaków:
+   * Ma od 10 do 15 znaków.
+   * Ma minimum jedną małą literę.
+   * Ma minimum jedną wielką literę.
+   * Nie zawiera dwóch wielkich lub dwóch małych liter z rzędu.
+
 **false** w przeciwnym wypadku.
 
 2. Wykorzystaj wyrażenia regularne.
@@ -33,23 +32,22 @@ W pliku `Main3.java`
 
 1. Napisz program, który będzie przyjmował linie z konsoli, do momentu wpisania `quit`.
 2. Program ma sprawdzać czy wpisany napis jest poprawnym działaniem matematycznym, np:
-````
-2 + 2
-2 * 4 - 2
-6 / 3 + 10
-
-````
+    ````
+    2 + 2
+    2 * 4 - 2
+    6 / 3 + 10
+    ````
 3. Jeżeli wyrażenie jest poprawne, oblicz wynik działania a następnie razem z działaniem zapisz
  go do pliku o nazwie `operations.txt` w postaci:
-````
-2 + 2 = 4
-2 * 4 - 2 = 6
-6 / 3 + 10 = 12
-````
+    ````
+    2 + 2 = 4
+    2 * 4 - 2 = 6
+    6 / 3 + 10 = 12
+    ````
 
 #### Zadanie 4
- 
-W pliku `Main4.java` w metodzie `main` zostały przygotowane wyrażenia regularne, 
+
+W pliku `Main4.java` w metodzie `main` zostały przygotowane wyrażenia regularne,
 uruchom program i przeanalizuj działanie.
 
 
