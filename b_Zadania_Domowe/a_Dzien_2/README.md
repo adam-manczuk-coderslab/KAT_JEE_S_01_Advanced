@@ -3,9 +3,9 @@
 1. W pliku `Main1` umieszczony został kod, który umieszcza w tablicy obiekty. Następnie wykonuje sortowanie tablicy.
 2. Po uruchomieniu programu zauważysz że zwracany jest wyjątek, popraw kod dodając instrukcję `implements`
 w następujący sposób:
-````java
-public class Person implements Comparable<Person> 
-````
+    ````java
+    public class Person implements Comparable<Person>
+    ````
 3. Dodaj implementację wymaganej metody, ma ona porównywać osoby względem pierwszej litery nazwiska.
 4. Możesz w tym celu wykorzystać metodę klasy `String` - `compareTo`;
 5. Po wprowadzeniu zmian uruchom ponownie program i zweryfikuj czy działa poprawnie.
@@ -35,11 +35,11 @@ Takiej możliwości może nie być w przypadku korzystania z API od zewnętrzneg
 4. Dodaj implementację metod w klasach pochodnych.
 5. W pliku `Main3` w metodzie main utwórz listę `List<Shape> list = new ArrayList<>();`, następnie dodaj do niej po jednym obiekcie każdego pochodnego typu.
 6. Wyświetl dane w postaci:
-````html
-`Prostokąt o bokach 2 i 4 - pole = 8, obwód = 12`
-`Kwadrat o boku 2 - pole = 4, obwód = 8`
-`Koło o promieniu 3- pole = 28,27, obwód = 18,85`
-````
+    ````html
+    `Prostokąt o bokach 2 i 4 - pole = 8, obwód = 12`
+    `Kwadrat o boku 2 - pole = 4, obwód = 8`
+    `Koło o promieniu 3- pole = 28,27, obwód = 18,85`
+    ````
 
 
 
@@ -63,7 +63,7 @@ Which is true:
     * B. Only the first and second files will compile.
     * C. Only the first and third will compile.
     * D. Only the second file will  compile.
-    * E. All three files will compile. 
+    * E. All three files will compile.
 
 #### Zadanie 2
 What is the output for the below code ?
@@ -87,14 +87,14 @@ public class Test {
 ```
 
 Options are:
-   * A.Compilation fails due to an error on line 3
-   * B.A
-   * C.Compilation fails due to an error on line 8
-   * D.null
-   
+   1. Compilation fails due to an error on line 3
+   1. A
+   1. Compilation fails due to an error on line 8
+   1. null
+
 #### Zadanie 3
 What is the output for the below code ?
-```java 
+```java
 public interface InfA {
     protected String getName();
 }
@@ -109,11 +109,11 @@ public class Test implements InfA{
 }
 ```
 Options are:
-    * A.test-name
-    * B.Compilation fails due to an error on lines 2
-    * C.Compilation fails due to an error on lines 1
-    * D.Compilation succeed but Runtime Exception   
-    
+   1. test-name  
+   1. Compilation fails due to an error on lines 2  
+   1. Compilation fails due to an error on lines 1  
+   1. Compilation succeed but Runtime Exception  
+
 <!-- Links -->
 [comparable]: https://docs.oracle.com/javase/8/docs/api/java/lang/Comparable.html
 **Repozytorium z ćwiczeniami zostanie usunięte 2 tygodnie po zakończeniu kursu. Spowoduje to też usunięcie wszystkich forków, które są zrobione z tego repozytorium.**
