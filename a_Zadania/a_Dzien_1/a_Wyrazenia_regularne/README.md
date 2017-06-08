@@ -40,7 +40,7 @@ W pliku `Main3.java`
 
 ````
 3. Jeżeli wyrażenie jest poprawne, oblicz wynik działania a następnie razem z działaniem zapisz
- go do pliku o nazwie `operations.txt` w postaci
+ go do pliku o nazwie `operations.txt` w postaci:
 ````
 2 + 2 = 4
 2 * 4 - 2 = 6

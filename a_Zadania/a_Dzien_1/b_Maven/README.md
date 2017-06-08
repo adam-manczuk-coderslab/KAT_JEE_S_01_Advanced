@@ -13,7 +13,20 @@ Pamiętaj aby rozwiązania do zadań umieszczać w odpowiednich plikach `java`, 
 #### Zadanie 2
 
 1. Za pomocą pliku pom.xml dołącz do projektu bibliotekę `jsoup` - poznaną podczas pierwszych warsztatów.
-2. Przetestuj działanie.
+2. Przetestuj działanie korzystając z poniższego kodu:
+````java
+Connection connect = Jsoup.connect("http://www.onet.pl/");
+try {
+    Document document = connect.get();
+    Elements links = document.select("span.title");
+    for (Element elem : links) {
+        System.out.println(elem.text());
+    }
+} catch (IOException e) {
+    e.printStackTrace();
+}
+
+````
 
 #### Zadanie 3
 
@@ -25,14 +38,15 @@ https://mvnrepository.com/popular
 
 1. Za pomocą pliku pom.xml dołącz do projektu bibliotekę `guava`.
 2. Zapoznaj się z jej możliwościami i wypróbuj wybraną z nich.
-    https://github.com/google/guava/wiki
-    http://zetcode.com/articles/guava/
-    https://www.tutorialspoint.com/guava/index.htm
+Więcej informacji znajdziesz:
+    * https://github.com/google/guava/wiki
+    * http://zetcode.com/articles/guava/
+    * https://www.tutorialspoint.com/guava/index.htm
     
 
 #### Zadanie 5
 
-1. Za pomocą pliku pom.xml skonfiguruj plugin `maven-assembly-plugin<`, plugin ten służy do tworzenia różnego rodzaju archiwów zawierających nasz projekt, np. zip, jar.
+1. Za pomocą pliku pom.xml skonfiguruj plugin `maven-assembly-plugin`, plugin ten służy do tworzenia różnego rodzaju archiwów zawierających nasz projekt, np. zip, jar.
 2. Wykorzystamy go do utworzenia wykonywalnego archiwum jar z naszego projektu. Plik ten będzie zawierał w sobie wszystkie wymagane do uruchomienia zależności.
 3. Uzupełnij plik pom o definicję pluginu:
     ```xml
@@ -61,4 +75,6 @@ https://mvnrepository.com/popular
 mvn clean compile assembly:single
 5. Po poprawnym wykonaniu w folderze target otrzymamy plik jar
 6. Uruchom program wykonując polecenie java -jar <nazwa pliku z rozszerzeniem jar>
-https://maven.apache.org/plugins/maven-assembly-plugin/usage.html
+
+Więcej informacji znajdziesz pod adresem: 
+    * https://maven.apache.org/plugins/maven-assembly-plugin/usage.html
