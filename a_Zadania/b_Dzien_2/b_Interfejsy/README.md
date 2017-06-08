@@ -14,6 +14,13 @@ Pamiętaj aby rozwiązania do zadań umieszczać w odpowiednich plikach `java`, 
     * stworzysz instancję obiektu `StandardUrl` przekazując w konstruktorze przykładowego adresu URL (może być jak w przykładzie).
     * wyświetlisz listę z nazwami wszystkich parametrów i ich wartościami.
     
+#### Zadanie 2 - rozwiązywane z wykładowcą
+
+1. Dopisz nową klasę `ExtendedUrl`. Klasa ta ma zaimplementować interfejs oraz prawidłowo sparsować niestandardowy adres url wg. poniższego wzoru
+   np. `url_example/param1.99/param2.string`
+2. Dla przykładu z powyższym adresem przekazanie do metody argumentu `param1` ma zwrócić `99` a `param2` ma zwrócić `string`
+3. Przetestuj działanie wykorzystując wcześniej utworzoną klasą `UrlMain`.
+    
 -----------------------------------------------------------------------------
     
 #### Zadanie 2

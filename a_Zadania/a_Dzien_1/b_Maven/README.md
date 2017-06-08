@@ -30,12 +30,6 @@ try {
 
 #### Zadanie 3
 
-1. Zapoznaj się z popularnymi bibliotekami dostępnymi w repozytorium:
-https://mvnrepository.com/popular
-2. Nie musisz znać wszystkich - warto jednak wiedzieć że są rozwiązania, które mogą Ci pomóc w pracy.
-
-#### Zadanie 4
-
 1. Za pomocą pliku pom.xml dołącz do projektu bibliotekę `guava`.
 2. Zapoznaj się z jej możliwościami i wypróbuj wybraną z nich.
 Więcej informacji znajdziesz:
@@ -44,7 +38,7 @@ Więcej informacji znajdziesz:
     * https://www.tutorialspoint.com/guava/index.htm
     
 
-#### Zadanie 5
+#### Zadanie 4
 
 1. Za pomocą pliku pom.xml skonfiguruj plugin `maven-assembly-plugin`, plugin ten służy do tworzenia różnego rodzaju archiwów zawierających nasz projekt, np. zip, jar.
 2. Wykorzystamy go do utworzenia wykonywalnego archiwum jar z naszego projektu. Plik ten będzie zawierał w sobie wszystkie wymagane do uruchomienia zależności.
@@ -80,5 +74,10 @@ Więcej informacji znajdziesz :
 
 https://github.com/google/guava/wiki
 
+#### Zadanie 5
+
+1. Zapoznaj się z popularnymi bibliotekami dostępnymi w repozytorium:
+https://mvnrepository.com/popular
+2. Nie musisz znać wszystkich - warto jednak wiedzieć że są rozwiązania, które mogą Ci pomóc w pracy.
 
 **Repozytorium z ćwiczeniami zostanie usunięte 2 tygodnie po zakończeniu kursu. Spowoduje to też usunięcie wszystkich forków, które są zrobione z tego repozytorium.**

@@ -14,7 +14,7 @@ którzy nie są spokrewnieni z szefem o nazwisku **Kowalski**.
 
 #### Zadanie 2.
 
-1. W pliku `Main2.java` do zmiennych **reg1**, **reg2** wpisz kolejno wyrażenia regularne, opisujące:
+1. W pliku `Main2.java` do zmiennych **reg1**, **reg2**, **reg3**, **reg4** wpisz kolejno wyrażenia regularne, opisujące:
 
     * liczby zmiennoprzecinkowe (5.65 , 123.123)
     * liczby w notacji naukowej ( 5.4325e+04 ; 2.0000342E-06)
