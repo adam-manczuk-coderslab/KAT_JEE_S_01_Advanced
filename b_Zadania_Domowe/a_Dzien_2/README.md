@@ -1,3 +1,5 @@
+<img alt="Logo" src="http://coderslab.pl/svg/logo-coderslab.svg" width="400">
+
 #### Zadanie 1
 
 1. W pliku `Main1` umieszczony został kod, który umieszcza w tablicy obiekty. Następnie wykonuje sortowanie tablicy.
