@@ -16,7 +16,7 @@ W pliku `Main1.java`
 
 W pliku `Main2.java`
 
-1. Napisz metodę `static boolean verifyPassword(int multipler, int index)`, która zwróci **true** jeżeli ciąg znaków:
+1. Napisz metodę `static boolean verifyPassword(String password)`, która zwróci **true** jeżeli ciąg znaków:
    * Ma od 10 do 15 znaków.
    * Ma minimum jedną małą literę.
    * Ma minimum jedną wielką literę.

@@ -5,19 +5,19 @@ Pamiętaj aby rozwiązania do zadań umieszczać w odpowiednich plikach `java`, 
 #### Zadanie 1 - rozwiązywane z wykładowcą
 
 1. Stwórz interfejs o nazwie `Url` służący do parsowania adresu URL w celu uzyskania parametrów przekazanych metodą `GET`
-2. Interfejs powinien zawierać konstruktor z jednym argumentem `url` - adresem do sparsowania oraz metodę publiczną `getParam($name)`
-   która ma zwrócić wartość parametru o nazwie `name` wyciągniętą z `url`
+2. Interfejs powinien zawierać metodę `String getParam(String name, String url)` - `url` - adres do sparsowania.
+   która ma zwrócić wartość parametru o nazwie `name` wyciągniętą z `url`.
 3. Następnie stwórz klasę `StandardUrl`, w której zaimplementujesz interfejs.
-   Jej zadaniem będzie sparsowanie standardowego url np. ``url_example?param1=99&param2=string`` w taki sposób żeby za pomocą metody
-   `getParam('param1')` uzyskać `99` itd.
+   Jej zadaniem będzie sparsowanie standardowego url np. `url_example?param1=99&param2=string` w taki sposób żeby za pomocą metody
+   `getParam("param1", "url_example?param1=99&param2=string")` uzyskać `99` itd.
 4. W momencie gdy klasa będzie działała prawidłowo utwórz klasę `UrlMain` w której:
     * stworzysz instancję obiektu `StandardUrl` przekazując w konstruktorze przykładowego adresu URL (może być jak w przykładzie).
     * wyświetlisz listę z nazwami wszystkich parametrów i ich wartościami.
     
 #### Zadanie 2 - rozwiązywane z wykładowcą
 
-1. Dopisz nową klasę `ExtendedUrl`. Klasa ta ma zaimplementować interfejs oraz prawidłowo sparsować niestandardowy adres url wg. poniższego wzoru
-   np. `url_example/param1.99/param2.string`
+1. Dopisz nową klasę `ExtendedUrl`. Klasa ta ma zaimplementować interfejs oraz prawidłowo sparsować
+ niestandardowy adres url wg. poniższego wzoru np. `url_example/param1.99/param2.string`
 2. Dla przykładu z powyższym adresem przekazanie do metody argumentu `param1` ma zwrócić `99` a `param2` ma zwrócić `string`
 3. Przetestuj działanie wykorzystując wcześniej utworzoną klasą `UrlMain`.
     

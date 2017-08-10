@@ -15,6 +15,7 @@ Dodaj konstruktor umożliwiający ustawienie wszystkich atrybutów klasy.
 Dodaj konstruktor umożliwiający ustawienie wszystkich atrybutów klasy.
 7. W klasie main utwórz tablicę 2 elementów `Vehicle`.
 8. Wstaw do tablicy, pociąg oraz samochód, następnie w pętli wyświetl obiekty wywołując metodę `toString`. 
+9. Przetestuj metody metodzie `main` klasy `Main1`.
 
 
 #### Zadanie 2 - rozwiązywane z wykładowcą
@@ -32,7 +33,7 @@ Stwórz abstrakcyjną klasę `User` mającą:
 1. Atrybuty `username`, `password` i `age` (zastanów się, jaki powinny mieć poziom dostępu).
 2. Abstrakcyjną metodę `checkLogin`:
    * przyjmującą jako argumenty `username` i `password`
-3. Publiczną metodę `setLogin`:
+3. Publiczną metodę `setUsername`:
    * przyjmującą jako argument login
    * ustawiającą `username` na przekazaną wartość
 4. Abstrakcyjną metodę: `setPassword`:
