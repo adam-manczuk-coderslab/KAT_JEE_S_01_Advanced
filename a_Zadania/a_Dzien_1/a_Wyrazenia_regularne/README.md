@@ -26,7 +26,7 @@ W pliku `Main2.java`
 
 **false** w przeciwnym wypadku.
 
-2. Wykorzystaj wyrażenia regularne.
+2. Wykorzystaj wyrażenia regularne. Warunki możesz sprawdzać oddzielnie.
 
 #### Zadanie 3.
 
